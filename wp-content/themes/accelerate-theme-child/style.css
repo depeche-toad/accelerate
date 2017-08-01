@@ -63,6 +63,25 @@ aside.case-study-sidebar {
 	margin: 0 6% 0 0;
 }
 
+aside.case-study-sidebar h5 {
+	font-weight: normal;
+	font-size: 16px;
+	color: grey;
+}
+
+aside.case-study-sidebar h6 {
+	display: none;
+}
+
+aside.case-study-sidebar p {
+	margin-top: 20px;
+}
+
+
+aside.case-study-sidebar p a {
+	color: #45ac9d;
+}
+
 div.case-study-images {
 	float: left;
 	width: 60%;
@@ -71,7 +90,39 @@ div.case-study-images {
 div.case-study-images img {
 	display: block;
 	margin-bottom: 50px;
+	margin-top: 30px;
 	border: 1px solid #dddddd;
 	width: 60%;
 	height: auto;
 }
+
+/* Featured Work Styles */
+
+
+
+/* Front Page Styles */
+.featured-work h4 {
+	text-transform: uppercase;
+	text-align: center;
+	font-size: 16px;
+	font-family: 'Montserrat';
+
+}
+
+ul li {
+	display: inline-block;
+}
+
+li figure {
+	margin-right: 10px;
+}
+
+li h3 {
+
+  font-weight: normal;
+    text-align: center;
+    margin-top: 20px;
+    font-size: 16px;
+}
+
+
