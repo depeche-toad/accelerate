@@ -55,6 +55,7 @@
 
 article.case-study {
 	margin:40px 0 0;
+	clear: both;
 }
 
 aside.case-study-sidebar {
@@ -75,11 +76,14 @@ aside.case-study-sidebar h6 {
 
 aside.case-study-sidebar p {
 	margin-top: 20px;
+	font-weight: normal;
 }
 
 
 aside.case-study-sidebar p a {
 	color: #45ac9d;
+	text-transform: uppercase;
+	font-family: 'Montserrat';
 }
 
 div.case-study-images {
@@ -96,7 +100,7 @@ div.case-study-images img {
 	height: auto;
 }
 
-/* Featured Work Styles */
+/* Archive Styles */
 
 
 
@@ -126,3 +130,8 @@ li h3 {
 }
 
 
+/* Footer Styles */
+
+.site-footer {
+	font-weight: normal;
+}
