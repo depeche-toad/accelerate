@@ -100,8 +100,6 @@ div.case-study-images img {
 	height: auto;
 }
 
-/* Archive Styles */
-
 
 
 /* Front Page Styles */
@@ -129,6 +127,57 @@ li h3 {
     font-size: 16px;
 }
 
+
+/*Contact Us*/
+
+#nf-field-1-container, #nf-field-2-container, .nf-field-container {
+	float: left;
+	display: inline-block;
+	clear: none;
+	width: 325px;
+}
+
+#nf-field-3-container {
+	clear: both;
+	width: 91%;
+}
+
+#nf-field-1-container {
+	margin-right: 30px;
+}
+
+#primary {
+	width: 45%;
+	font-size: 16px;
+	font-family: 'Montserrat';
+}
+
+.ninja-forms-req-symbol {
+  display: none;
+}
+
+.nf-form-fields-required {
+	display: none;
+}
+
+.nf-field-label label{
+	font-weight: normal !important;
+}
+
+#content p {
+	width: 95%;
+}
+
+#nf-field-4  {
+	color: white;
+	background-color: #45ac9d;
+	font-family: 'Montserrat';
+	font-weight: normal;
+	float: right;
+	padding: 20px 80px;
+	margin-right: -360px;
+
+}
 
 /* Footer Styles */
 
